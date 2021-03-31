@@ -1,165 +1,19 @@
-\documentclass[a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage[T1]{fontenc}
-\usepackage[a4paper, margin=2cm, right=4cm]{geometry}
-\usepackage{multirow}
-\usepackage[hidelinks]{hyperref}
-\usepackage{dirtytalk}
-\usepackage{graphicx}
-\usepackage{pdfcomment}
-\usepackage{caption}
-\usepackage[nomain, toc, section=section]{glossaries}
-\usepackage[german, textwidth=3cm]{todonotes}
-\usepackage{listings}
-\usepackage{array}
-\usepackage{ulem}
-\usepackage{csquotes}
-\usepackage[citestyle=verbose]{biblatex}
-\usepackage[capposition=top]{floatrow}
-\usepackage[titlesize=2em,parsize=1em,titlealign=r,nofullpage,clrpg]{colophon}
-
-\graphicspath{ {./images/} }
-
-\setlength{\marginparwidth}{3cm}
+\documentclass[english]{retronlabo-manual}
 
 \title{Retron 5: RetronLabo CFW Guide
+\thanks{Thanks to ManCloud, Reminon and Stone}}
 \author{\url{https://github.com/jayp76}}
-\thanks{Thanks to ManCloud, Reminon und Stone}}
-
-% so, we slightly abuse the glossary package here for the supported file types listing later. It kind of is that, in a way? It defines things that work with other things? Yay?
-\newglossary[ftg]{file-type}{ftd}{ftn}{Dateiformate}
-
-\newglossaryentry{ft:fba}{
-  type=file-type,
-  name=FBA,
-  description={\texttt{*.zip}}
-}
-\newglossaryentry{ft:famicom}{
-  type=file-type,
-  name=Famicom,
-  description={\texttt{*.fds}}
-}
-\newglossaryentry{ft:gb}{
-  type=file-type,
-  name=GameBoy,
-  description={\texttt{*.gb}, \texttt{*.gbc}}
-}
-\newglossaryentry{ft:gg}{
-  type=file-type,
-  name=GameGear,
-  description={\texttt{*.gg}}
-}
-\newglossaryentry{ft:gba}{
-  type=file-type,
-  name=GameBoy Advance,
-  description={\texttt{*.gba}}
-}
-\newglossaryentry{ft:mdg}{
-  type=file-type,
-  name=MegaDrive/Genesis,
-  description={\texttt{*.bin}, \texttt{*.md}, \texttt{*.gen}}
-}
-\newglossaryentry{ft:nes}{
-  type=file-type,
-  name=NES,
-  description={\texttt{*.nes}}
-}
-\newglossaryentry{ft:ngp}{
-  type=file-type,
-  name=NeoGeoPocket,
-  description={\texttt{*.ngp}}
-}
-\newglossaryentry{ft:pce}{
-  type=file-type,
-  name=PC-Engine,
-  description={\texttt{*.pce}}
-}
-\newglossaryentry{ft:ps1}{
-  type=file-type,
-  name=PS1(PSX),
-  description={load the \texttt{*.cue} file in the menu; \texttt{bin+cue}}
-}
-\newglossaryentry{ft:mcd}{
-  type=file-type,
-  name=MegaCD/SegaCD,
-  description={load the \texttt{*.cue} file in the menu; \texttt{bin+cue}}
-}
-\newglossaryentry{ft:sms}{
-  type=file-type,
-  name=Master System,
-  description={\texttt{*.sms}}
-}
-\newglossaryentry{ft:sfc}{
-  type=file-type,
-  name=Super Nintendo,
-  description={\texttt{*.sfc}, \texttt{*.smc}}
-}
-\newglossaryentry{ft:ws}{
-  type=file-type,
-  name=Wonderswan,
-  description={\texttt{*.ws}, \texttt{*.wsc}}
-}
-
-\makeglossaries
-
-\setuptodonotes{}
-
-\lstset{
-  language=C++,
-  numbers=left,
-  numberstyle=\tiny,
-  basicstyle=\footnotesize
-}
-
-\addbibresource{references.bib}
 
 \begin{document}
-
-\sffamily
 
 \maketitle
 
 \begin{abstract}
 This guide is about how to use the RetronLabo Custom Firmware for your Retron 5. It does not explain how to install or where to get it.
+\todo{Add RetronLabo docs $\rightarrow$ ongoing}
 \end{abstract}
 
-\todo{Add RetronLabo docs $\rightarrow$ ongoing}
-
-\tableofcontents
-
-\listoffigures
-
-\listoftables
-
-\colophontitle{Amige, Don't Read This Colophon!}
-\begin{colophon}
-... what are you doing. I told you explicitly NOT to! Now I need to actually come up with text for a colophon! Do you know how much copy you need to write for a colophon? Like, A FULL PAGE! ZOMG, THE HORROR!!\footnotemark
-
-Uh... right... so... moving straight past that:
-
-\emph{Why hello there!} I sure hope you are finding yourself to be having an excellent day, today. Certainly a good one for hacking your console to teach it new tricks! Speaking of, I would like to point out that I am not actually the original author of this doc - I just translated it! @jayp76 started this, I'm just trying to help out!
-
-And thanks to the magicks of github and how that fosters collaboration, that's exactly what you too can do! I saw this, forked it, and sent pull requests. It's github. It's awesome. You can do it too!
-
-So... I translated this doc into LaTeX from the source-less PDF first, so I can procrastinate translating it into English - because Procrastination is For PROs, right? It's right in the word and all. But in all seriousness, translating a TeX file is much easier than a word document. For real.
-
-I would like to point out that I have not actually tried all the things in this doc first-hand. I did try my best to keep the English consistent throughout. It's totally possible some German slipped past - I mean, English slipped into the German version, right? So, if you find mistakes, however large: you get to keep both pieces. Pitch in and send a pull request with a fix. It's just LaTeX, it's not that hard.
-
-You \emph{can DO IT}!
-
-This was @EffinMaggie, and you go have a good day there now. Go apply what you read here into getting down with some new games on your Retron!
-
-And stop reading colophons. They've not been hip since the 16th century. Like, you're gonna make FETCH happen before colophons are back in style, and after the time we've all had, YOU most DEFINITELY deserve yourself some FRESH STYLES! Have fun!
-
-\end{colophon}
-
-\footnotetext{... no, I don't have a thing going on about breaking style in otherwise meticulously crafted forms of publishing. That is a very specific thought, why would you think that? Have you been spying on my Twitter or Twitch? 'cause you shouldn't do that. At least not the Twitter - that's a terrible place. Made of terrible people. Like me. Also I broke a LaTeX package in the making of this joke, and you are probably never going to read this, unless you check the source. If you do: Good on you, mate! Well done! Curiosity might kill cats, but if you're reading English, you likely aren't one, so you're good, and learning! Huzzah!}
-
-% neat hack to always page break between sections - thanks DuckDuckGo and David Carlisle for allowing me to find this. :)
-\let\oldsection\section
-\renewcommand\section{\clearpage\oldsection}
-% additional note: we do this here instead of in the preamble, because we don't actually need to spread out all the different types of lists over a gazillion pages. We just want this for actual sections after the frontmatter.
+\FrontMatter
 
 \section{What's new and shiny in this firmware?}
 
@@ -316,7 +170,7 @@ The folder shown there can be found at \say{\texttt{\#Internal storage}/\texttt{
 
 You could also try deleting all save states. The Retron 5's original firmware has a tendency to create save states for just starting games - which gets awkward if you swap out the emulator underneath and it'll try to load a different emulator's save state. The Retron will do this even if you do not actually use save states, so it may be worth investigating.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Screenshot with Menu Options for a ROM.}
 \includegraphics[width=\textwidth]{unknown-game}
 \label{fig:unknown-game}
@@ -421,8 +275,6 @@ This core allows creating folders on your SD Card under \say{Retron5/Roms/Genesi
 % \section{ROM Dumping}
 \todo{Document how to actually dump your own carts to a ROM file.}
 
-\listoftodos[To-Do]
-
-\printbibliography
+\BackMatter
 
 \end{document}

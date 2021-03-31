@@ -1,165 +1,19 @@
-\documentclass[a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[german]{babel}
-\usepackage[T1]{fontenc}
-\usepackage[a4paper, margin=2cm, right=4cm]{geometry}
-\usepackage{multirow}
-\usepackage[hidelinks]{hyperref}
-\usepackage{dirtytalk}
-\usepackage{graphicx}
-\usepackage{pdfcomment}
-\usepackage{caption}
-\usepackage[nomain, toc, section=section]{glossaries}
-\usepackage[german, textwidth=3cm]{todonotes}
-\usepackage{listings}
-\usepackage{array}
-\usepackage{ulem}
-\usepackage{csquotes}
-\usepackage[citestyle=verbose]{biblatex}
-\usepackage[capposition=top]{floatrow}
-\usepackage[titlesize=2em,parsize=1em,titlealign=r,nofullpage,clrpg]{colophon}
-
-\graphicspath{ {./images/} }
-
-\setlength{\marginparwidth}{3cm}
+\documentclass[german]{retronlabo-manual}
 
 \title{Retron 5 - Retronlabo CFW User Guide, How-To und FAQ
-\author{\url{https://github.com/jayp76}}
 \thanks{Dank geht an ManCloud, Reminon und Stone}}
-
-% so, we slightly abuse the glossary package here for the supported file types listing later. It kind of is that, in a way? It defines things that work with other things? Yay?
-\newglossary[ftg]{file-type}{ftd}{ftn}{Dateiformate}
-
-\newglossaryentry{ft:fba}{
-  type=file-type,
-  name=FBA,
-  description={\texttt{*.zip}}
-}
-\newglossaryentry{ft:famicom}{
-  type=file-type,
-  name=Famicom,
-  description={\texttt{*.fds}}
-}
-\newglossaryentry{ft:gb}{
-  type=file-type,
-  name=GameBoy,
-  description={\texttt{*.gb} und \texttt{*.gbc}}
-}
-\newglossaryentry{ft:gg}{
-  type=file-type,
-  name=GameGear,
-  description={\texttt{*.gg}}
-}
-\newglossaryentry{ft:gba}{
-  type=file-type,
-  name=GameBoy Advance,
-  description={\texttt{*.gba}}
-}
-\newglossaryentry{ft:mdg}{
-  type=file-type,
-  name=MegaDrive/Genesis,
-  description={\texttt{*.bin} und \texttt{*.md} und \texttt{*.gen}}
-}
-\newglossaryentry{ft:nes}{
-  type=file-type,
-  name=NES,
-  description={\texttt{*.nes}}
-}
-\newglossaryentry{ft:ngp}{
-  type=file-type,
-  name=NeoGeoPocket,
-  description={\texttt{*.ngp}}
-}
-\newglossaryentry{ft:pce}{
-  type=file-type,
-  name=PC-Engine,
-  description={\texttt{*.pce}}
-}
-\newglossaryentry{ft:ps1}{
-  type=file-type,
-  name=PS1(PSX),
-  description={zum Laden des Spieles \texttt{*.cue} ausw\"ahlen, ansonsten \texttt{bin+cue}}
-}
-\newglossaryentry{ft:mcd}{
-  type=file-type,
-  name=MegaCD/SegaCD,
-  description={zum Laden des Spieles \texttt{*.cue} ausw\"ahlen, ansonsten \texttt{bin+cue}}
-}
-\newglossaryentry{ft:sms}{
-  type=file-type,
-  name=Master System,
-  description={\texttt{*.sms}}
-}
-\newglossaryentry{ft:sfc}{
-  type=file-type,
-  name=Super Nintendo,
-  description={\texttt{*.sfc} und \texttt{*.smc}}
-}
-\newglossaryentry{ft:ws}{
-  type=file-type,
-  name=Wonderswan,
-  description={\texttt{*.ws} und \texttt{*.wsc}}
-}
-
-\makeglossaries
-
-\setuptodonotes{}
-
-\lstset{
-  language=C++,
-  numbers=left,
-  numberstyle=\tiny,
-  basicstyle=\footnotesize
-}
-
-\addbibresource{references.bib}
+\author{\url{https://github.com/jayp76}}
 
 \begin{document}
-
-\sffamily
 
 \maketitle
 
 \begin{abstract}
 Dieser Guide beinhaltet nicht die Installationsschritte f\"ur die CFW, sondern nur das Handling mit Cartridges, Cores, Configs und Romsdumps.
+\todo{Diesen Guide mit RetrolLabo Doku anreichern $\rightarrow$ ongoing}
 \end{abstract}
 
-\todo{Diesen Guide mit RetrolLabo Doku anreichern $\rightarrow$ ongoing}
-
-\tableofcontents
-
-\listoffigures
-
-\listoftables
-
-\colophontitle{Amige, Don't Read This Colophon!}
-\begin{colophon}
-... what are you doing. I told you explicitly NOT to! Now I need to actually come up with text for a colophon! Do you know how much copy you need to write for a colophon? Like, A FULL PAGE! ZOMG, THE HORROR!!\footnotemark
-
-Uh... right... so... moving straight past that:
-
-\emph{Why hello there!} I sure hope you are finding yourself to be having an excellent day, today. Certainly a good one for hacking your console to teach it new tricks! Don't worry, this is indeed the German version of this PDF. But I'm writing in English to highlight that I'm NOT the original author of this document - you should head on over to jayp76's github for that, yo!
-
-BUT it is through the magicks of github and how that fosters collaboration, that I found this, liked it, wanted to help out by translating it, then noticed the PDF had no source - and no hyperlinks, meaning it was likely written in a word processor with a print to PDF function, and so there is no real source to collab on. And that's no good for a collaboration! Like, literally, by definition!
-
-So... I translated it into LaTeX first, so I can procrastinate translating it into English - because Procrastination is For PROs, right? It's right in the word and all. But in all seriousness, translating a TeX file is much easier than a word document. For real.
-
-I would like to point out that I have not actually proofread the text in here except for when I happened to notice a typo or somesuch - which, since it's German, ain't all that likely to be honest, cause I grew up in the South - we ain't speaking no German. It's literally a different language, and about as close to German as Dutch. So, if you find mistakes, however large: you get to keep both pieces. Pitch in and send a pull request with a fix. It's just LaTeX, it's not that hard.
-
-You \emph{can DO IT}!
-
-This was @EffinMaggie, and you go have a good day there now. Go apply what you read here into getting down with some new games on your Retron!
-
-And stop reading colophons. They've not been hip since the 16th century. Like, you're gonna make FETCH happen before colophons are back in style, and after the time we've all had, YOU most DEFINITELY deserve yourself some FRESH STYLES! Have fun!
-
-\end{colophon}
-
-\footnotetext{... no, I don't have a thing going on about breaking style in otherwise meticulously crafted forms of publishing. That is a very specific thought, why would you think that? Have you been spying on my Twitter or Twitch? 'cause you shouldn't do that. At least not the Twitter - that's a terrible place. Made of terrible people. Like me. Also I broke a LaTeX package in the making of this joke, and you are probably never going to read this, unless you check the source. If you do: Good on you, mate! Well done! Curiosity might kill cats, but if you're reading English, you likely aren't one, so you're good, and learning! Huzzah!}
-
-% neat hack to always page break between sections - thanks DuckDuckGo and David Carlisle for allowing me to find this. :)
-\let\oldsection\section
-\renewcommand\section{\clearpage\oldsection}
-% additional note: we do this here instead of in the preamble, because we don't actually need to spread out all the different types of lists over a gazillion pages. We just want this for actual sections after the frontmatter.
+\FrontMatter
 
 \section{Welchen Mehrwert bringt die CFW?}
 
@@ -293,8 +147,6 @@ F\"ur SegaCD/MegaCD Spiele k\"onnen im \say{Retron5/Roms/Genesis} Ordner auf der
 % \section{ROM Dumping}
 \todo{Dumping FAQ/Anleitung}
 
-\listoftodos[To-Do]
-
-\printbibliography
+\BackMatter
 
 \end{document}

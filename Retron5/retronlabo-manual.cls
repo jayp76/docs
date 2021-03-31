@@ -79,7 +79,7 @@
 \setuptodonotes{}
 
 % The glossary definitions are deliberately in their own file - and they translate themselves.
-\include{fragments/file-types}
+\input{fragments/file-types}
 
 \makeglossaries
 

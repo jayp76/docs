@@ -1,0 +1,88 @@
+% so, we slightly abuse the glossary package here for the supported file types listing later. It kind of is that, in a way? It defines things that work with other things? Yay?
+\IfLanguageName{english}{
+\newglossary[ftg]{file-type}{ftd}{ftn}{Supported File Formats}
+}{}
+\IfLanguageName{german}{
+\newglossary[ftg]{file-type}{ftd}{ftn}{Unterst\"utzte Dateiformate}
+}{}
+
+\newglossaryentry{ft:fba}{
+  type=file-type,
+  name=FBA,
+  description={\texttt{*.zip}}
+}
+\newglossaryentry{ft:famicom}{
+  type=file-type,
+  name=Famicom,
+  description={\texttt{*.fds}}
+}
+\newglossaryentry{ft:gb}{
+  type=file-type,
+  name=GameBoy,
+  description={\texttt{*.gb}, \texttt{*.gbc}}
+}
+\newglossaryentry{ft:gg}{
+  type=file-type,
+  name=GameGear,
+  description={\texttt{*.gg}}
+}
+\newglossaryentry{ft:gba}{
+  type=file-type,
+  name=GameBoy Advance,
+  description={\texttt{*.gba}}
+}
+\newglossaryentry{ft:mdg}{
+  type=file-type,
+  name=MegaDrive/Genesis,
+  description={\texttt{*.bin}, \texttt{*.md}, \texttt{*.gen}}
+}
+\newglossaryentry{ft:nes}{
+  type=file-type,
+  name=NES,
+  description={\texttt{*.nes}}
+}
+\newglossaryentry{ft:ngp}{
+  type=file-type,
+  name=NeoGeoPocket,
+  description={\texttt{*.ngp}}
+}
+\newglossaryentry{ft:pce}{
+  type=file-type,
+  name=PC-Engine,
+  description={\texttt{*.pce}}
+}
+
+% this is the other way we can provide translations: define a macro that expands to the translation.
+
+\IfLanguageName{english}{
+\newcommand{\SelectCueIsBinCue}{load the \texttt{*.cue} file in the menu; \texttt{bin+cue}}
+}{}
+\IfLanguageName{german}{
+\newcommand{\SelectCueIsBinCue}{zum Laden des Spieles die \texttt{*.cue}-Datei ausw\"ahlen; Spiel muss als \texttt{*.bin+*.cue} vorliegen}
+}{}
+
+\newglossaryentry{ft:ps1}{
+  type=file-type,
+  name=PS1(PSX),
+  description={\SelectCueIsBinCue}
+}
+\newglossaryentry{ft:mcd}{
+  type=file-type,
+  name=MegaCD/SegaCD,
+  description={\SelectCueIsBinCue}
+}
+\newglossaryentry{ft:sms}{
+  type=file-type,
+  name=Master System,
+  description={\texttt{*.sms}}
+}
+\newglossaryentry{ft:sfc}{
+  type=file-type,
+  name=Super Nintendo,
+  description={\texttt{*.sfc}, \texttt{*.smc}}
+}
+\newglossaryentry{ft:ws}{
+  type=file-type,
+  name=Wonderswan,
+  description={\texttt{*.ws}, \texttt{*.wsc}}
+}

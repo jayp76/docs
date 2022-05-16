@@ -1,0 +1,17 @@
+BBond007:
+- ScummVM
+- Doom
+- DosBox (Not tested working?)
+- BasiliskII
+- OpenBor (not public, DE10-nano too slow)
+
+Boogerman:
+- Cannonball (No sound on latex MiSTer 5.x Kernel, probably missing suitable Libs)
+
+misterkun-io/Boogerman:
+- DevilutionX 
+
+jayp76:
+- Cave Story (Keyboard only, due to only partial Joypad support)
+
+

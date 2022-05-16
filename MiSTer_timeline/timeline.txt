@@ -1,0 +1,6 @@
+Timeline (rough):
+- Project started when? Probably around early 2017. Earliest Menu build is from 20170615
+
+Milestones:
+- Change to 5.x Kernel ca. August 2021
+- PSX Core May 2022

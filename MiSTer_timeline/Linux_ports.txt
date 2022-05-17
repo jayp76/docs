@@ -6,12 +6,12 @@ BBond007:
 - OpenBor (not public, DE10-nano too slow)
 
 Boogerman:
-- Cannonball (No sound on latex MiSTer 5.x Kernel, probably missing suitable Libs)
+- Cannonball (No sound on latex MiSTer 5.x Kernel, probably missing suitable Libs) (2018?)
 
 misterkun-io/Boogerman:
-- DevilutionX 
+- DevilutionX (Nov 2019)
 
 jayp76:
-- Cave Story (Keyboard only, due to only partial Joypad support)
+- Cave Story (Keyboard only, due to only partial Joypad support) (Oct 2020)
 
 

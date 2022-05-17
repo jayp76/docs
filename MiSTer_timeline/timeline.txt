@@ -3,4 +3,5 @@ Timeline (rough):
 
 Milestones:
 - Change to 5.x Kernel ca. August 2021
+- Sega 32X April 2022
 - PSX Core May 2022

@@ -18,3 +18,7 @@
   https://github.com/SteamDeckHomebrew/decky-loader
   https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
   https://davidotek.github.io/protonup-qt/
+  
+  not tested:
+  https://github.com/a22057916w/archlinux-kde-install-guide
+  Fcitx5 is the successor of Fcitx, a lightweight input method framework aimed at providing environment-independent language support for Linux.

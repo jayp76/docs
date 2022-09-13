@@ -1,0 +1,15 @@
+- Changing locale:
+  sudo steamos-readonly disable
+  sudo pacman -S glibc  (glibc must be installed)
+  sudo pacman -S nano
+  sudo nano /etc/locale.gen (uncomment needed locales, don't comment en_US.UTF-8 UTF-8, it is needed)
+  sudo locale-gen
+  
+  
+  
+  Addons:
+  https://www.emudock.com
+  https://www.gamingonlinux.com/2022/09/distrobox-can-open-up-the-steam-deck-to-a-whole-new-world/
+  https://github.com/SteamDeckHomebrew/decky-loader
+  https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+  https://davidotek.github.io/protonup-qt/

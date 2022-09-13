@@ -4,6 +4,11 @@
   sudo pacman -S nano
   sudo nano /etc/locale.gen (uncomment needed locales, don't comment en_US.UTF-8 UTF-8, it is needed)
   sudo locale-gen
+
+- Updating Keyring
+  sudo pacman-key --init
+  sudo pacman-key --populate
+  sudo pacman -S archlinux-keyring (optional)
   
   
   

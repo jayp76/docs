@@ -1,10 +1,11 @@
 - Changing locale:
   (please leave it to es_US:UTF-8 when usinng Decky loader, might breake some Decky functions. Might be fixed in the meantime)
   sudo steamos-readonly disable
-  sudo pacman -S glibc  (glibc must be installed)
+  sudo pacman -S glibc  #(glibc must be installed)
   sudo pacman -S nano
-  sudo nano /etc/locale.gen (uncomment needed locales, don't comment en_US.UTF-8 UTF-8, it is needed)
+  sudo nano /etc/locale.gen #(uncomment needed locales, don't comment en_US.UTF-8 UTF-8, it is needed)
   sudo locale-gen
+  sudo steamos-readonly enable
 
 - Updating Keyring
   sudo pacman-key --init

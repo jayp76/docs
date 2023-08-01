@@ -1,4 +1,5 @@
 - Changing locale:
+  (please leave it to es_US:UTF-8 when usinng Decky loader, might breake some Decky functions. Might be fixed in the meantime)
   sudo steamos-readonly disable
   sudo pacman -S glibc  (glibc must be installed)
   sudo pacman -S nano
@@ -9,8 +10,7 @@
   sudo pacman-key --init
   sudo pacman-key --populate
   sudo pacman -S archlinux-keyring (optional)
-  
-  
+    
   
   Addons:
   https://www.emudock.com

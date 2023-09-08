@@ -188,235 +188,235 @@ https://live.cast-control.eu/xalastratv/xalastratv/playlist.m3u8
 #EXTINF:-1 group-title="ΜΟΥΣΙΚΗ" tvg-logo="https://i.imgur.com/Y0AhJTU.png",MGR TV TRAVEL
 https://livetv.streams.ovh:1936/mgrwebtv/mgrwebtv/playlist.m3u8
 
-#EXTM3U
+#iptvcat
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.ibb.co/0XMM4gn/download-7.png" group-title="GR-List",10 Channel (720p)
-https://tv.mediacp.eu:8081/10channel/index.m3u8?checkedby:iptvcat.org
+https://tv.mediacp.eu:8081/10channel/index.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",4E
-http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/HasBahCa.m3u8?checkedby:iptvcat.org
+http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",AEOLOS TV
-https://cdn.istoikona.com/aeolostv/live/playlist.m3u8?checkedby:iptvcat.org
+https://cdn.istoikona.com/aeolostv/live/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ALERT
-https://itv.streams.ovh/ALEERT/ALEERT/HasBahCa.m3u8?checkedby:iptvcat.org
+https://itv.streams.ovh/ALEERT/ALEERT/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ALPHA HD
-https://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8?checkedby:iptvcat.org
+https://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Acheloos TV (576p) [Not 24/7]
-http://srv.viiideo.gr:1935/axeloos/live/HasBahCa.m3u8?checkedby:iptvcat.org
+http://srv.viiideo.gr:1935/axeloos/live/HasBahCa.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Action
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/action.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/action.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Action_24_new_logo.jpg" group-title="GR-List",Action 24 (1080p)
-http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8?checkedby:iptvcat.org
+http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://greektv.pbworks.com/w/file/fetch/98921626/SUNNY.png" group-title="GR-List",Alert
-https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8?checkedby:iptvcat.org
+https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Alpha
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/alpha.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/alpha.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Alpha TV
-http://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8?checkedby:iptvcat.org
+http://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8
 #EXTINF:0 tvg-country="AL;AM;BG;FR;GR;IT;NL;SK;TR" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="GR-List",Angel TV Europe (720p)
-https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8?checkedby:iptvcat.org
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Ant 1
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ant1.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ant1.gr.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Antenna
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/antenna.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/antenna.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/C9CormG.png" group-title="GR-List",Attica TV (1080p),Blue Sky TVV (576p)
-http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8?checkedby:iptvcat.org
+http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://goo.gl/mNqHoo" group-title="GR-List",Axeloos
-http://srv.viiideo.gr:1935/axeloos/live/playlist.m3u8?checkedby:iptvcat.org
+http://srv.viiideo.gr:1935/axeloos/live/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",BARAZA TV HD
-https://eco.streams.ovh:443/BarazaTV/BarazaTV/HasBahCa.m3u8?checkedby:iptvcat.org
+https://eco.streams.ovh:443/BarazaTV/BarazaTV/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/VN8FkmS.png" group-title="GR-List",BCI 24 News (720p)
-https://eu1.vectromdigital.com:1936/bci24news/bci24news/playlist.m3u8?checkedby:iptvcat.org
+https://eu1.vectromdigital.com:1936/bci24news/bci24news/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/mW6c2QR.png" group-title="GR-List",Baraza TV
-https://eco.streams.ovh:443/BarazaTV/BarazaTV/playlist.m3u8?checkedby:iptvcat.org
+https://eco.streams.ovh:443/BarazaTV/BarazaTV/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Baraza TV Deep House (720p)
-https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8?checkedby:iptvcat.org
+https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Baraza TV Greek Hits
-https://eco.streams.ovh/BarazaTV/BarazaTV/playlist.m3u8?checkedby:iptvcat.org
+https://eco.streams.ovh/BarazaTV/BarazaTV/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/mW6c2QR.png" group-title="GR-List",Baraza TV Greek Music Hits
-https://eco.streams.ovh/BarazaTV/BarazarazaTV/BarazaTV/playlist.m3u8?checkedby:iptvcat.org
+https://eco.streams.ovh/BarazaTV/BarazarazaTV/BarazaTV/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/TZ1unwF.png" group-title="GR-List",Baraza TV Relaxing (720p)
-https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8?checkedby:iptvcat.org
+https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/C9CormG.png" group-title="GR-List",Blue Sky TV (576p)
-https://cdn1.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8?checkedby:iptvcat.org
+https://cdn1.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png" group-title="GR-List",CNN International Europe (720p)
-https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8?checkedby:iptvcat.org
+https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",CORFU CHANNEL
-https://itv.streams.ovh/corfuchannel/corfuchannel/HasBahCa.m3u8?checkedby:iptvcat.org
+https://itv.streams.ovh/corfuchannel/corfuchannel/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",CRETA
-http://live.streams.ovh:1935/tvcreta/tvcreta/HasBahCa.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/tvcreta/tvcreta/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Crete TV
-http://live.cretetv.gr:1935/cretetv/myStream/playlist.m3u8?checkedby:iptvcat.org
+http://live.cretetv.gr:1935/cretetv/myStream/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",DELTA TV
-http://81.171.10.42:554/liveD/DStream.sdp/HasBahCa.m3u8?checkedby:iptvcat.org
+http://81.171.10.42:554/liveD/DStream.sdp/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",DIAVATA TV HD
-https://video.streams.ovh:1936/DiavataTV/DiavataTV/HasBahCa.m3u8?checkedby:iptvcat.org
+https://video.streams.ovh:1936/DiavataTV/DiavataTV/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",DIKTYO TV
-https://5d00db0e0fcd5.streamlock.net/7322/7322/HasBahCa.m3u8?checkedby:iptvcat.org
+https://5d00db0e0fcd5.streamlock.net/7322/7322/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",EKKLHSIA TV HD
-https://liveopen.siliconweb.com/openTvLive/openEcclessia/HasBahCa.m3u8?checkedby:iptvcat.org
+https://liveopen.siliconweb.com/openTvLive/openEcclessia/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/3g3yjAq.png" group-title="GR-List",ENA Channel (576p)
-https://storemusic.top:8222/enachannel/enachannel/enachannel/playlist.m3u8?checkedby:iptvcat.org
+https://storemusic.top:8222/enachannel/enachannel/enachannel/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ERT 1
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert1.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert1.gr.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ERT 2
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert2.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert2.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://upload.wikimedia.org/wikipedia/el/thumb/9/91/ErtNews-Logo.png/512px-ErtNews-Logo.png" group-title="GR-List",ERT News (1080p)
-https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8?checkedby:iptvcat.org
+https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ERT Sport
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert.sport.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert.sport.gr.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",ERT World
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert.world.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert.world.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Ellinikos FM (720p)
-https://til.pp.ua:3093/live/ellinikosfmlive.m3u8?checkedby:iptvcat.org
+https://til.pp.ua:3093/live/ellinikosfmlive.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/nYVqhu8.png" group-title="GR-List",Epirus TV1 (1080p)
-https://til.pp.ua:3928/live/epiruslive.m3u8?checkedby:iptvcat.org
+https://til.pp.ua:3928/live/epiruslive.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/ZiiPNf6.png" group-title="GR-List",Epsilon TV (720p)
-https://channel.streams.ovh:1936/epsilontv/epsilontv/playlist.m3u8?checkedby:iptvcat.org
+https://channel.streams.ovh:1936/epsilontv/epsilontv/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Ert 3
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert3.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/ert3.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/8FcJ2I9.png" group-title="GR-List",FORMedia TV (1080p)
-https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8?checkedby:iptvcat.org
+https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="GR-List",Fashion TV (1080p)
-https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8?checkedby:iptvcat.org
+https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/k2aV1A0.jpg" group-title="GR-List",Fox Tv Greece
-http://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",GRD CHANNEL
-https://live.cast-control.eu:443/organismos/organismos/HasBahCa.m3u8?checkedby:iptvcat.org
+https://live.cast-control.eu:443/organismos/organismos/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.ibb.co/ZNCXr79/gnomi-logo.png" group-title="GR-List",Gnomi TV (720p)
-https://channel.streams.ovh:1936/gnomitv/gnomitv/playlist.m3u8?checkedby:iptvcat.org
+https://channel.streams.ovh:1936/gnomitv/gnomitv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/0iklNh2.png" group-title="GR-List",Groovy
-http://bit.ly/2p6JqSo?checkedby:iptvcat.org
+http://bit.ly/2p6JqSo
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Groovy Catch
-http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Groovy TV (532p)
-http://web.onair-radio.eu:1935/groovytv/groovytv/HasBahCa.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/groovytv/groovytv/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",High TV
-http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Ionian Channel
-http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8?checkedby:iptvcat.org
+http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://greektv.pbworks.com/w/file/fetch/51254412/IONIAN.PNG" group-title="GR-List",Ionian TV
-https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8?checkedby:iptvcat.org
+https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",KONTRA
-#http://kontralive.siliconweb.com/live/kontratv/HasBahCa.m3u8?checkedby:iptvcat.org
+#http://kontralive.siliconweb.com/live/kontratv/HasBahCa.m3u8
 ##_EXTINF:0 tvg-country="GR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kontra_%28gr%29_%282021-01-21%29.svg/512px-Kontra_%28gr%29_%282021-01-21%29.svg.png" group-title="GR-List",Kontra Channel (1080p)
-#https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8?checkedby:iptvcat.org
+#https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png" group-title="GR-List",Lychnos TV (1080p)
-https://thor.mental-media.gr:19360/imp/imp.m3u8?checkedby:iptvcat.org
+https://thor.mental-media.gr:19360/imp/imp.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",MAGIC TV
-https://itv.streams.ovh/magictv/magictv/HasBahCa.m3u8?checkedby:iptvcat.org
+https://itv.streams.ovh/magictv/magictv/HasBahCa.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Magic
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/magic.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/magic.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/QZQhg6C.png" group-title="GR-List",Magic TV
-https://itv.streams.ovh/magictv/magictv/playlist.m3u8?checkedby:iptvcat.org
+https://itv.streams.ovh/magictv/magictv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="GR-List",MavTV Select (720p)
-https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8?checkedby:iptvcat.org
+https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Mega
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/mega.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/mega.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Mega Cosmos
-https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/mega.cosmos.gr.m3u8?checkedby:iptvcat.org
+https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/mega.cosmos.gr.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/KX5olay.png" group-title="GR-List",Mesogeios TV (404p)
-https://til.pp.ua:3872/live/mesogeiostvlive.m3u8?checkedby:iptvcat.org
+https://til.pp.ua:3872/live/mesogeiostvlive.m3u8
 
 ##_EXTINF:0 tvg-country="AF;AL;DZ;AM;AU;BH;BB;BR;BG;KH;CA;CL;CO;DK;EG;FI;FR;GE;DE;GR;HK;HU;IN;ID;IR;IQ;IL;KW;MX;MN;MA;NL;OM;PE;SK;SD;SE;AE;VN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/512px-Logo_NDR_Fernsehen_2017.svg.png" group-title="GR-List",NDR Fernsehen International
-#https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8?checkedby:iptvcat.org
+#https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",NEA TV
-https://live.neatv.gr:8888/hls/neatv_low/index.m3u8?checkedby:iptvcat.org
+https://live.neatv.gr:8888/hls/neatv_low/index.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",NETMAX TV
-http://live.netmaxtv.com:8080/live/live/HasBahCa.m3u8?checkedby:iptvcat.org
+http://live.netmaxtv.com:8080/live/live/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/pK2p5ey.png" group-title="GR-List",NG
-http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/pK2p5ey.png" group-title="GR-List",NG
-https://live.streams.ovh/NGradio/NGradio/playlist.m3u8?checkedby:iptvcat.org
+https://live.streams.ovh/NGradio/NGradio/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",NG (612p)
-http://live.streams.ovh:1935/NGradio/NGradio/HasBahCa.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/NGradio/NGradio/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",NG TV
-https://live.streams.ovh/NGradio/NGradio/HasBahCa.m3u8?checkedby:iptvcat.org
+https://live.streams.ovh/NGradio/NGradio/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/Nq00n8h.png" group-title="GR-List",Notioi TV (1080p)
-https://srv.streamserver.gr:3451/stream/play.m3u8?checkedby:iptvcat.org
+https://srv.streamserver.gr:3451/stream/play.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Open
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/open.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/open.gr.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Open Beyond
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/open.beyond.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/open.beyond.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Pemptousia TV (1080p) [Not 24/7]
-https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8?checkedby:iptvcat.org
+https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/100uuWA.png" group-title="GR-List",Play TV
-http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Play TV
-http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/HasBahCa.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",RELOAD RADIO
-http://web.onair-radio.eu:1935/video/video/HasBahCa.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/video/video/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.ibb.co/1ZbXtD1/480px-RISE-FINAL-LOGO-1.png" group-title="GR-List",RISE TV (240p)
-http://ovh-edge-h.evrideo.com:8080/23e234f2-aec8-4804-b694-4cdd71d2d48d_MONITORING_HLS/video_240p_WEBRTC_MONITORING.m3u8?checkedby:iptvcat.org
+http://ovh-edge-h.evrideo.com:8080/23e234f2-aec8-4804-b694-4cdd71d2d48d_MONITORING_HLS/video_240p_WEBRTC_MONITORING.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.ibb.co/1Lk8P1x/1-150x150.png" group-title="GR-List",RedMusic (720p)
-https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8?checkedby:iptvcat.org
+https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://reloadplay.com/wp-content/uploads/2017/04/logo-foto-tv.jpg" group-title="GR-List",Reload Play
-http://web.onair-radio.eu:1935/video/video/playlist.m3u8?checkedby:iptvcat.org
+http://web.onair-radio.eu:1935/video/video/playlist.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Rik
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/rik.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/rik.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",SKAÏ
-https://skai-live-back.siliconweb.com/media/cambria4/index_bitrate600K.m3u8?checkedby:iptvcat.org
+https://skai-live-back.siliconweb.com/media/cambria4/index_bitrate600K.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",STAR HD
-http://livestar.siliconweb.com/media/star1/star1.m3u8?checkedby:iptvcat.org
+http://livestar.siliconweb.com/media/star1/star1.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",SYROS TV1
-http://eco.streams.ovh:1935/syrostv1/syrostv1/HasBahCa.m3u8?checkedby:iptvcat.org
+http://eco.streams.ovh:1935/syrostv1/syrostv1/HasBahCa.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Sigma
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/sigma.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/sigma.gr.m3u8
 
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Skai
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/skai.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/skai.gr.m3u8
 ##_EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",Star
-#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/star.gr.m3u8?checkedby:iptvcat.org
+#https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/star.gr.m3u8
 
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/arQe5qS.png" group-title="GR-List",Syros TV1 (720p)
-https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8?checkedby:iptvcat.org
+https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",THRAKINET
-https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8?checkedby:iptvcat.org
+https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",TILE EPILOGES
-https://5d00db0e0fcd5.streamlock.net/7170/7170/HasBahCa.m3u8?checkedby:iptvcat.org
+https://5d00db0e0fcd5.streamlock.net/7170/7170/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/dUH5Mfw.jpg" group-title="GR-List",TV Creta
-https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8?checkedby:iptvcat.org
+https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",TV FILOPOLI
-http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/HasBahCa.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/HasBahCa.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/GdgekUL.png" group-title="GR-List",TV Filopoli
-http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/playlist.m3u8?checkedby:iptvcat.org
+http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/playlist.m3u8
 #EXTINF:0 tvg-country="AL;AM;BG;DK;FI;GE;DE;GR;HU;IT;SK;CH" tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="GR-List",TV5Monde Europe (1080p) [Geo-blocked]
-https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8?checkedby:iptvcat.org
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="http://i.imgur.com/piGhf3m.png" group-title="GR-List",Tile Mousiki
-http://wpso.com:1936/hls/music1.m3u8?checkedby:iptvcat.org
+http://wpso.com:1936/hls/music1.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/SfV2gJg.png" group-title="GR-List",Top Channel (720p)
-http://eu1.vectromdigital.com:1935/topchannel/topchannel/playlist.m3u8?checkedby:iptvcat.org
+http://eu1.vectromdigital.com:1935/topchannel/topchannel/playlist.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://www.cosmote.gr/portal/image/journal/article?img_id=41706922&t=1524412256156" group-title="GR-List",Vouli Tileorasi
-https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8?checkedby:iptvcat.org
+https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/7A86yAv.png" group-title="GR-List",Vouli Tileorasi
-https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8?checkedby:iptvcat.org
+https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/7A86yAv.png" group-title="GR-List",Vouli Tileorasi
-http://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8?checkedby:iptvcat.org
+http://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8
 #EXTINF:0 tvg-country="GR" tvg-logo="https://www.cosmote.gr/portal/image/journal/article?img_id=41706922&t=1524412256156" group-title="GR-List",Vouli Tileorasi
-http://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8?checkedby:iptvcat.org
+http://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8
 

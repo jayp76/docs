@@ -336,7 +336,7 @@ https://tv4.live/api/stream/robert.goldsby50@gmail.com/629662/livetv.epg/mega.co
 #EXTINF:0 tvg-country="GR" tvg-logo="https://i.imgur.com/KX5olay.png" group-title="GR-List",Mesogeios TV (404p)
 https://til.pp.ua:3872/live/mesogeiostvlive.m3u8?checkedby:iptvcat.org
 
-##EXTINF:0 tvg-country="AF;AL;DZ;AM;AU;BH;BB;BR;BG;KH;CA;CL;CO;DK;EG;FI;FR;GE;DE;GR;HK;HU;IN;ID;IR;IQ;IL;KW;MX;MN;MA;NL;OM;PE;SK;SD;SE;AE;VN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/512px-Logo_NDR_Fernsehen_2017.svg.png" group-title="Undefined;FRANCE;MEXICO",NDR Fernsehen International
+##EXTINF:0 tvg-country="AF;AL;DZ;AM;AU;BH;BB;BR;BG;KH;CA;CL;CO;DK;EG;FI;FR;GE;DE;GR;HK;HU;IN;ID;IR;IQ;IL;KW;MX;MN;MA;NL;OM;PE;SK;SD;SE;AE;VN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/512px-Logo_NDR_Fernsehen_2017.svg.png" group-title="GR-List",NDR Fernsehen International
 #https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8?checkedby:iptvcat.org
 
 #EXTINF:0 tvg-country="GR" tvg-logo="" group-title="GR-List",NEA TV

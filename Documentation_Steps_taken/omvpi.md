@@ -20,4 +20,4 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/
 <br>
 https://github.com/SpaceinvaderOne/Easy_Unraid_SSHKey_Exchange<br>
 -> <br>
-https://raw.githubusercontent.com/SpaceinvaderOne/Easy_Unraid_SSHKey_Exchange/main/ssh_exchange_script_generator.sh<br>
+wget https://raw.githubusercontent.com/SpaceinvaderOne/Easy_Unraid_SSHKey_Exchange/main/ssh_exchange_script_generator.sh<br>

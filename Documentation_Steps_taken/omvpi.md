@@ -17,3 +17,7 @@ https://wiki.omv-extras.org/doku.php?id=omv6:raspberry_pi_install<br>
 -> <br>
 sudo apt-get update && sudo apt-get upgrade -y<br>
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash<br>
+<br>
+https://github.com/SpaceinvaderOne/Easy_Unraid_SSHKey_Exchange<br>
+-> <br>
+https://raw.githubusercontent.com/SpaceinvaderOne/Easy_Unraid_SSHKey_Exchange/main/ssh_exchange_script_generator.sh<br>

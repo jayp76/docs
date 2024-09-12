@@ -15,3 +15,6 @@ java -jar diao.jar
 Source:
 https://www.summet.com/blog/2022/02/26/using-the-daja-dj6-laser-engraver-under-ubuntu-linux/
 
+Archive:
+https://github.com/jayp76/docs/raw/main/DAJA_D6_Linux/DAJA_DJ6_Linux.zip
+

@@ -4,7 +4,7 @@ My colleague lend me his Daja laser engraver. To my surprise, there is no App Do
 I tested it on Manjaro Linux -> <br>
 Prerequsistes: <br>
 Java JDK (probably Java JRE schould also work) <br>
-I did not test OpenJDK <br>
+I did not test OpenJDK, but the author of the article states it is working. <br>
 sudo usermod -a -G dialout <your_username> <br>
 if no dialout group exists <br>
 or sudo usermod -a -G uucp <your_username> <br>

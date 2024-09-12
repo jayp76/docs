@@ -9,7 +9,8 @@ sudo usermod -a -G dialout <your_username> <br>
 if no dialout group exists <br>
 or sudo usermod -a -G uucp <your_username> <br>
 or sudo usermod -a -G lock <your_username> <br>
-or sudo usermod -a -G tty <your_username> <br>
+or sudo usermod -a -G tty <your_username> <br> 
+(logout is needed for settings to take effect)
 <br>
 <br>
 To run the DAJA engraver app you need to type: <br>
